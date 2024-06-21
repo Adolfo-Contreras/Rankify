@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  background-image: linear-gradient();
+html{
+  @apply min-h-screen w-screen;
 }
