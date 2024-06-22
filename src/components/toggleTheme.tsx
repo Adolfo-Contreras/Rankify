@@ -17,8 +17,8 @@ export function ThemeSwitcher() {
   if (!mounted) return null;
 
   const toggleThemeMode = () => {
-    setIsSelected(!isSelected)
     setTheme(isSelected ? 'light' : 'dark');
+    setIsSelected(!isSelected)
   };
   return (
     <div>
@@ -27,7 +27,7 @@ export function ThemeSwitcher() {
         isSelected={isSelected}
         onValueChange={toggleThemeMode}
         size="lg"
-        color="secondary"
+        color="primary"
         thumbIcon={({ isSelected, className }) =>
           isSelected ? (
             <LuMoonStar className={className} />

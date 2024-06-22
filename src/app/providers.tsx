@@ -6,7 +6,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
   const nav = useRouter();
   return (
   <NextUIProvider navigate={nav.push}>
-    <DarkThemeProvider enableSystem={false}>
+    <DarkThemeProvider attribute="class" defaultTheme="dark">
     {children}
     </DarkThemeProvider>
   </NextUIProvider>
