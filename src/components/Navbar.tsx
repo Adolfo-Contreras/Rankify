@@ -8,15 +8,14 @@ import {
   NavbarMenuItem,
   Link,
 } from "@nextui-org/react";
-import { RiSpotifyLine } from "react-icons/ri";
-
+import { SlSocialSpotify } from "react-icons/sl";
 
 export function NavbarComponent() {
 
   return (
     <Navbar>
         <NavbarBrand>
-            <RiSpotifyLine/>
+        <SlSocialSpotify size={32}/>
         </NavbarBrand>
 
         <NavbarContent>

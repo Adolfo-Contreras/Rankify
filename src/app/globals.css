@@ -5,3 +5,9 @@
 html{
   @apply min-h-screen w-screen;
 }
+body{
+  @apply h-screen w-full;
+}
+body > div:first-child{
+  @apply h-full w-full;
+}
