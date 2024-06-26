@@ -21,7 +21,7 @@ export default function LoginForm() {
   };
   return (
     <>
-      <form className="flex flex-col gap-4 items-center">
+      <form className="flex flex-col gap-4 items-center p-2">
         <Input
           label="Email"
           labelPlacement="outside"

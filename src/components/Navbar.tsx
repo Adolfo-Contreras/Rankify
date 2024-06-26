@@ -26,7 +26,7 @@ export function NavbarComponent() {
                 <Link href='/login'>Login</Link>
             </NavbarItem>
             <NavbarItem>
-                <Link href='/dashboard'>DashBoard</Link>
+                <Link href='/Rankify'>DashBoard</Link>
             </NavbarItem>
         </NavbarContent>
     </Navbar>
